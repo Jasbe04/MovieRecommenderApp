@@ -15,7 +15,7 @@ A **Movie Recommender System** built with **Python**, **scikit-learn**, and **St
 
 ## **Demo**
 
-<img width="891" height="574" alt="image" src="https://github.com/user-attachments/assets/8a468a7e-8170-4e1f-8bff-9a3bc1d67e2d" />
+<img width="1429" height="620" alt="image" src="https://github.com/user-attachments/assets/c2b6f063-cf4a-4a73-ad79-82064ba35f2d" />
 
 
 ---
