@@ -10,7 +10,7 @@ st.title("Movie Recommender System")
 movies_dict=pickle.load(open('movies_dict.pkl','rb'))
 movies=pd.DataFrame(movies_dict)
 
-similarity=pickle.load(open('similarity.pkl','rb'))
+similarity=pickle.load(open('similarity.pkl','rb'))  #Due to the large memory size, the file similarity.pkl is not included in this repository.
 
 def recommend(movie):
     movie_index=movies[movies['title']==movie].index[0]
@@ -35,3 +35,4 @@ if st.button('Recommend'):
     for i in recommendations:
         st.write(i)
     # st.write('You selected:', selected_movies_name)
+
